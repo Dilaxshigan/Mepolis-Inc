@@ -1,0 +1,2634 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://mepolisinc.com/ -->
+<html class="no-js" lang="en" data-qb-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mepolis Inc </title>
+    <meta name="description" content="Mepolis Inc. - Your Trusted Logistics and Supply Chain Partner">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://mepolisinc.com/assets/img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="./banner-one-img-1_files/all.min.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/animate.min.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/custom-animate.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/icomoon.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/jquery.magnific-popup.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/nice-select.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/nouislider.min.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/nouislider.pips.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/odometer.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/slick.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/swiper.min.css">
+
+    <link rel="stylesheet" href="./banner-one-img-1_files/style.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/color-1.css">
+    <link rel="stylesheet" href="./banner-one-img-1_files/responsive.css">
+
+
+<style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style><style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style></head>
+
+<body class="body-dark-bg">
+
+    <!-- preloader -->
+    <div id="preloader" style="display: none;">
+        <div id="loading-center">
+            <div class="loader">
+                <div class="loader-outter"></div>
+                <div class="loader-inner"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader-end -->
+
+    <!-- Scroll-top -->
+    <button class="scroll-top scroll-to-target" data-target="html" fdprocessedid="fv1mq">
+        <i class="icon-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <div class="fix">
+
+        <!--Start Main Header Two -->
+        <header class="main-header main-header-two">
+            <div id="sticky-header" class="menu-area">
+                <div class="main-header-two__outer">
+                    <div class="logo-box-two">
+                        <a style="width: 25%;" href="https://mepolisinc.com/index.html"><img src="./banner-one-img-1_files/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="menu-area__inner">
+                        <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                        <div class="menu-wrap">
+                            <nav class="menu-nav">
+                                <div class="main-header-two__inner">
+                                    <div class="main-header-two__top">
+                                        <div class="main-header-two__top-pattern" style="background-image: url(assets/img/pattern/header-v2-pattern.png);">
+                                        </div>
+
+                                        <div class="main-header-two__top-inner">
+                                            <div class="main-header-two__top-left">
+                                                <div class="header-contact-info">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="icon-box"><span class="icon-pin"></span>
+                                                            </div>
+                                                            <p>394 Orenda Rd, Brampton, ON L6T 1G9</p>
+                                                        </li>
+                                                        <li>
+                                                            <div class="icon-box"><span class="icon-paper-plane"></span>
+                                                            </div>
+                                                            <p><a href="mailto:yourmail@email.com">Info@mepolisinc.com</a>
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="main-header-two__top-right">
+                                                <div class="inner">
+                                                    <div class="header-social-links">
+                                                        <ul>
+                                                            <li><a href="https://web.facebook.com/profile.php?id=61568876638151"><span class="icon-facebook"></span></a>
+                                                            </li>
+                                                           
+                                                    
+                                                            <li><a href="https://www.instagram.com/mepolis_inc/?fbclid=IwZXh0bgNhZW0CMTEAAR0MgOj_JJv-_a6PoPuW3_ZszGvM6AtA78uvH6JuDW7b3C0MCQdy9s-OE54_aem_HICTRb-YGwZIgxh3zyGKGA"><span class="icon-instagram"></span></a>
+                                                            </li>
+                                                            <li><a href="https://www.linkedin.com/company/mepolis-inc"><span class="icon-linkedin"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <!-- <div class="btn-box">
+                                                        <a href="#">Get a Free Quote <span
+                                                                class="icon-right-arrow"></span></a>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="main-header-two__bottom">
+                                        <div class="main-header-two__bottom-left">
+                                            <div class="navbar-wrap main-menu">
+                                                <ul class="navigation">
+                                                    <li class="active "><a href="https://mepolisinc.com/index.html">Home</a>
+                                                    </li>
+                                                   
+                                                    <li class="menu-item-has-children">
+                                                        <a href="https://mepolisinc.com/#">Services</a>
+                                                        <ul class="sub-menu">
+                                    
+                                                                    <li><a href="https://mepolisinc.com/road-transport.html">Road transport</a></li>
+                                                                    <li><a href="https://mepolisinc.com/air-transport.html">Air transport</a></li>
+                                                                    <li><a href="https://mepolisinc.com/ocean-freight.html">Ocean transport</a></li>
+                                                                    <li><a href="https://mepolisinc.com/rail-transport.html">Train transport</a></li>
+                                                          
+                                                        </ul>
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
+                                                    <li class="menu-item-has-children"><a href="https://mepolisinc.com/#">About us</a>
+                                                        <ul class="sub-menu">
+                                                            <!-- <li><a href="team.html">Team</a></li>
+                                                            <li><a href="team-details.html">Team Details</a>
+                                                            </li> -->
+                                                            <!-- <li><a href="projects.html">Projects</a></li>
+                                                            <li><a href="project-details.html">Project
+                                                                    Details</a></li> -->
+                                                                    <li><a href="https://mepolisinc.com/about.html">About</a></li>
+                                                                    <li><a href="https://mepolisinc.com/privacy-policy.html">Privacy Policy</a></li>
+                                                            <li><a href="https://mepolisinc.com/terms-and-condition.html">Terms &amp; Condition</a></li>
+                                                        </ul>
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
+                                                    <!-- <li class=""><a href="blog.html">Blog</a> -->
+                                                    
+                                                    <li><a href="https://mepolisinc.com/contact.html">Contact</a></li>
+                                                    
+                                                    <li><a href="https://mepolisinc.com/request.html">Request A Quote</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="main-header-two__bottom-right">
+
+                                            <div class="contact-box">
+                                                <div class="icon-box">
+                                                    <span class="icon-out-call"></span>
+                                                </div>
+                                                <div class="text">
+                                                    <p><a href="tel:+416-522-5656">647-549-5656 </a></p>
+                                                    <p><a href="tel:+647-549-5656">647-241-2255</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Menu  -->
+                    <div class="mobile-menu">
+                        <nav class="menu-box">
+                            <div class="close-btn"><i class="fas fa-times"></i></div>
+                            <div class="nav-logo">
+                                <a href="https://mepolisinc.com/index.html"><img src="./banner-one-img-1_files/logo.png" alt="Logo"></a>
+                            </div>
+                            <div class="menu-outer">
+                                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                            
+                                                <ul class="navigation">
+                                                    <li class="active "><a href="https://mepolisinc.com/index.html">Home</a>
+                                                    </li>
+                                                   
+                                                    <li class="menu-item-has-children">
+                                                        <a href="https://mepolisinc.com/#">Services</a>
+                                                        <ul class="sub-menu">
+                                    
+                                                                    <li><a href="https://mepolisinc.com/road-transport.html">Road transport</a></li>
+                                                                    <li><a href="https://mepolisinc.com/air-transport.html">Air transport</a></li>
+                                                                    <li><a href="https://mepolisinc.com/ocean-freight.html">Ocean transport</a></li>
+                                                                    <li><a href="https://mepolisinc.com/rail-transport.html">Train transport</a></li>
+                                                          
+                                                        </ul>
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
+                                                    <li class="menu-item-has-children"><a href="https://mepolisinc.com/#">About us</a>
+                                                        <ul class="sub-menu">
+                                                            <!-- <li><a href="team.html">Team</a></li>
+                                                            <li><a href="team-details.html">Team Details</a>
+                                                            </li> -->
+                                                            <!-- <li><a href="projects.html">Projects</a></li>
+                                                            <li><a href="project-details.html">Project
+                                                                    Details</a></li> -->
+                                                                    <li><a href="https://mepolisinc.com/about.html">About</a></li>
+                                                                    <li><a href="https://mepolisinc.com/privacy-policy.html">Privacy Policy</a></li>
+                                                            <li><a href="https://mepolisinc.com/terms-and-condition.html">Terms &amp; Condition</a></li>
+                                                        </ul>
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
+                                                    <!-- <li class=""><a href="blog.html">Blog</a> -->
+                                                    
+                                                    <li><a href="https://mepolisinc.com/contact.html">Contact</a></li>
+                                                    
+                                                    <li><a href="https://mepolisinc.com/request.html">Request A Quote</a></li>
+                                                </ul>
+                                            </div>
+                            <div class="contact-info">
+                                <div class="icon-box"><span class="icon-telephone-handle-silhouette"></span></div>
+                                <div>
+                                    <p><a href="tel:+416-522-5656">647-549-5656 </a></p>
+                                                        <p><a href="tel:+647-549-5656">647-241-2255 </a></p>
+                                </div>
+                            </div>
+                            <div class="social-links">
+                                <ul class="clearfix list-wrap">
+                                    <li><a href="https://web.facebook.com/profile.php?id=61568876638151"><i class="fab fa-facebook-f"></i></a></li>
+                                   
+                                    <li><a href="https://www.instagram.com/mepolis_inc/?fbclid=IwZXh0bgNhZW0CMTEAAR0MgOj_JJv-_a6PoPuW3_ZszGvM6AtA78uvH6JuDW7b3C0MCQdy9s-OE54_aem_HICTRb-YGwZIgxh3zyGKGA"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/mepolis-inc"><i class="fab fa-linkedin-in"></i></a></li>
+                         
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="menu-backdrop"></div>
+                    <!-- End Mobile Menu -->
+                </div>
+            </div>
+        </header>
+        <!--End Main Header Two -->
+
+        <!--Start Main Slider Two-->
+        <section class="main-slider main-slider-two">
+            <div class="swiper-container thm-swiper__slider-two swiper-container-initialized swiper-container-horizontal" style="cursor: grab;">
+
+                <div class="swiper-wrapper" style="transform: translate3d(-6076px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 1519px;">
+                        <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img4.png);">
+                        </div>
+                        <div class="shape1"><img src="./banner-one-img-1_files/slider-v2-shape1.png" alt=""></div>
+                        <div class="shape2"><img src="./banner-one-img-1_files/slider-v2-shape2.png" alt=""></div>
+                        <div class="shape3"><img src="./banner-one-img-1_files/slider-v2-shape3.png" alt=""></div>
+                        <div class="shape4"><img class="float-bob-x" src="./banner-one-img-1_files/slider-v2-shape4.png" alt="">
+                        </div>
+                        <div class="big-title">
+                            <h2>Translo</h2>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__single">
+                                <div class="main-slider-two__content">
+                                    <div class="sub-title">
+                                        <p>Mepolis Inc </p>
+                                    </div>
+                                    <div class="title">
+                                        <h2>Fast and Safety <br> World wide Service <br> <span>Provider</span> </h2>
+                                    </div>
+                                    <div class="text">
+                                        <p>Efficient &amp; Reliable <br> Global Logistics <span>Solutions</span> </p>
+                                 <p>Mepolis Inc. delivers logistics solutions that prioritize safety, reliability, and efficiency to ensure your business needs are met worldwide.</p>
+                                     </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/#pricing1">
+                                            <span class="txt">Calculate Package</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Start Swiper Slide Single-->
+                    <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 1519px;">
+                        <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img1.png);">
+                        </div>
+                        <div class="shape1"><img src="./banner-one-img-1_files/slider-v2-shape1.png" alt=""></div>
+                        <div class="shape2"><img src="./banner-one-img-1_files/slider-v2-shape2.png" alt=""></div>
+                        <div class="shape3"><img src="./banner-one-img-1_files/slider-v2-shape3.png" alt=""></div>
+                        <div class="shape4"><img class="float-bob-x" src="./banner-one-img-1_files/slider-v2-shape4.png" alt="">
+                        </div>
+                        <div class="big-title">
+                            <h2>Mepolis Inc </h2>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__single">
+                                <div class="main-slider-two__content">
+                                    <div class="sub-title">
+                                        <p>Mepolis Inc </p>
+                                    </div>
+                                    <div class="title">
+                                        <h2>Fast and Safety <br> World wide Service <br> <span>Provider</span> </h2>
+                                    </div>
+                                    <div class="text">
+                                       <p>Efficient &amp; Reliable <br> Global Logistics <span>Solutions</span> </p>
+                                <p>Mepolis Inc. delivers logistics solutions that prioritize safety, reliability, and efficiency to ensure your business needs are met worldwide.</p>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/#pricing1">
+                                            <span class="txt">Calculate Package</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Swiper Slide Single-->
+
+                    <!--Start Swiper Slide Single-->
+                    <div class="swiper-slide" data-swiper-slide-index="1" style="width: 1519px;">
+                        <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img2.png);">
+                        </div>
+                        <div class="shape1"><img src="./banner-one-img-1_files/slider-v2-shape1.png" alt=""></div>
+                        <div class="shape2"><img src="./banner-one-img-1_files/slider-v2-shape2.png" alt=""></div>
+                        <div class="shape3"><img src="./banner-one-img-1_files/slider-v2-shape3.png" alt=""></div>
+                        <div class="shape4"><img class="float-bob-x" src="./banner-one-img-1_files/slider-v2-shape4.png" alt="">
+                        </div>
+                        <div class="big-title">
+                            <h2>Translo</h2>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__single">
+                                <div class="main-slider-two__content">
+                                    <div class="sub-title">
+                                        <p>Mepolis Inc </p>
+                                    </div>
+                                    <div class="title">
+                                        <h2>Fast and Safety <br> World wide Service <br> <span>Provider</span> </h2>
+                                    </div>
+                                    <div class="text">
+                                        <p>Efficient &amp; Reliable <br> Global Logistics <span>Solutions</span> </p>
+                                 <p>Mepolis Inc. delivers logistics solutions that prioritize safety, reliability, and efficiency to ensure your business needs are met worldwide.</p>
+                                     </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/#pricing1">
+                                            <span class="txt">Calculate Package</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Swiper Slide Single-->
+
+                    <!--Start Swiper Slide Single-->
+                    <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 1519px;">
+                        <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img3.png);">
+                        </div>
+                        <div class="shape1"><img src="./banner-one-img-1_files/slider-v2-shape1.png" alt=""></div>
+                        <div class="shape2"><img src="./banner-one-img-1_files/slider-v2-shape2.png" alt=""></div>
+                        <div class="shape3"><img src="./banner-one-img-1_files/slider-v2-shape3.png" alt=""></div>
+                        <div class="shape4"><img class="float-bob-x" src="./banner-one-img-1_files/slider-v2-shape4.png" alt="">
+                        </div>
+                        <div class="big-title">
+                            <h2>Translo</h2>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__single">
+                                <div class="main-slider-two__content">
+                                    <div class="sub-title">
+                                        <p>Mepolis Inc </p>
+                                    </div>
+                                    <div class="title">
+                                        <h2>Fast and Safety <br> World wide Service <br> <span>Provider</span> </h2>
+                                    </div>
+                                    <div class="text">
+                                        <p>Efficient &amp; Reliable <br> Global Logistics <span>Solutions</span> </p>
+                                 <p>Mepolis Inc. delivers logistics solutions that prioritize safety, reliability, and efficiency to ensure your business needs are met worldwide.</p>
+                                     </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/#pricing1">
+                                            <span class="txt">Calculate Package</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Swiper Slide Single-->
+
+                    <!--Start Swiper Slide Single-->
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 1519px;">
+                        <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img4.png);">
+                        </div>
+                        <div class="shape1"><img src="./banner-one-img-1_files/slider-v2-shape1.png" alt=""></div>
+                        <div class="shape2"><img src="./banner-one-img-1_files/slider-v2-shape2.png" alt=""></div>
+                        <div class="shape3"><img src="./banner-one-img-1_files/slider-v2-shape3.png" alt=""></div>
+                        <div class="shape4"><img class="float-bob-x" src="./banner-one-img-1_files/slider-v2-shape4.png" alt="">
+                        </div>
+                        <div class="big-title">
+                            <h2>Translo</h2>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__single">
+                                <div class="main-slider-two__content">
+                                    <div class="sub-title">
+                                        <p>Mepolis Inc </p>
+                                    </div>
+                                    <div class="title">
+                                        <h2>Fast and Safety <br> World wide Service <br> <span>Provider</span> </h2>
+                                    </div>
+                                    <div class="text">
+                                        <p>Efficient &amp; Reliable <br> Global Logistics <span>Solutions</span> </p>
+                                 <p>Mepolis Inc. delivers logistics solutions that prioritize safety, reliability, and efficiency to ensure your business needs are met worldwide.</p>
+                                     </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/#pricing1">
+                                            <span class="txt">Calculate Package</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Swiper Slide Single-->
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 1519px;">
+                        <div class="image-layer" style="background-image: url(assets/img/slider/slider-v2-img1.png);">
+                        </div>
+                        <div class="shape1"><img src="./banner-one-img-1_files/slider-v2-shape1.png" alt=""></div>
+                        <div class="shape2"><img src="./banner-one-img-1_files/slider-v2-shape2.png" alt=""></div>
+                        <div class="shape3"><img src="./banner-one-img-1_files/slider-v2-shape3.png" alt=""></div>
+                        <div class="shape4"><img class="float-bob-x" src="./banner-one-img-1_files/slider-v2-shape4.png" alt="">
+                        </div>
+                        <div class="big-title">
+                            <h2>Mepolis Inc </h2>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__single">
+                                <div class="main-slider-two__content">
+                                    <div class="sub-title">
+                                        <p>Mepolis Inc </p>
+                                    </div>
+                                    <div class="title">
+                                        <h2>Fast and Safety <br> World wide Service <br> <span>Provider</span> </h2>
+                                    </div>
+                                    <div class="text">
+                                       <p>Efficient &amp; Reliable <br> Global Logistics <span>Solutions</span> </p>
+                                <p>Mepolis Inc. delivers logistics solutions that prioritize safety, reliability, and efficiency to ensure your business needs are met worldwide.</p>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/#pricing1">
+                                            <span class="txt">Calculate Package</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="main-slider-two__wrap">
+                    <div class="swiper-counter">
+                        <div id="current" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">3</div>
+                        <div id="total">4</div>
+                    </div>
+                </div>
+
+                <div class="swiper-nav-style1">
+                    <div class="swiper-button-prev" id="main-slider-two__swiper-button-next" tabindex="0" role="button" aria-label="Next slide" fdprocessedid="v91ed">
+                        <i class="icon-left-arrow-5" aria-hidden="true"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider-two__swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" fdprocessedid="w6ejs">
+                        <i class="icon-right-arrow-5" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </section>
+        <!--End Main Slider One-->
+
+        <!--Start About Two -->
+        <section class="about-two">
+            <div class="shape1 float-bob-x"><img src="./banner-one-img-1_files/about-v2-shape1.png" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <!--Start About Two Img-->
+                    <div class="col-xl-6">
+                        <div class="about-two__img">
+                            
+                            <div class="about-two__img1">
+                                <img src="./banner-one-img-1_files/1.png" alt="">
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                    <!--End About Two Img-->
+
+                    <!--Start About Two Content-->
+                    <div class="col-xl-6">
+                        <div class="about-two__content">
+                            <div class="sec-title-two">
+                                <div class="sub-title">
+                                    <h5>About Company</h5>
+                                </div>
+                                <h2>Digital &amp; Trusted Transport <br>
+                                    Logistic Company</h2>
+                            </div>
+
+                            <div class="about-two__content-text">
+                                <p>Mepolis Inc. is dedicated to providing seamless, technology-driven logistics solutions that 
+                                    meet the evolving demands of the modern business world. With a focus on efficiency, safety, 
+                                    and reliability, we ensure your goods reach their destination on time and in perfect condition. 
+                                    Our innovative approach to logistics combines digital expertise with a commitment to 
+                                    exceptional service, making us a trusted partner for all your transportation needs.</p>
+                            </div>
+
+                            <div class="about-two__content-list">
+                                <ul>
+                                    <li>
+                                        <div class="icon-box">
+                                            <span class="icon-check-marked-1"></span>
+                                        </div>
+                                        <p>Dynamic Dispatching and Scheduling</p>
+                                    </li>
+
+                                    <li>
+                                        <div class="icon-box">
+                                            <span class="icon-check-marked-1"></span>
+                                        </div>
+                                        <p>Vehicle Health Monitoring</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="about-two__content-bottom">
+                                <div class="btn-box">
+                                    <a class="thm-btn" href="https://mepolisinc.com/about.html">
+                                        <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                    </a>
+                                </div>
+                                <div class="author-box">
+                                  
+
+                                    <div class="text-box">
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End About Two Content-->
+                </div>
+            </div>
+        </section>
+        <!--End About Two -->
+
+        <!--Start Fact Counter Two-->
+        <section class="fact-counter-two">
+            <div class="shape1 float-bob-y"><img src="./banner-one-img-1_files/counter-v2-shape1.png" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <!--Start Fact Counter Two Single-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="fact-counter-two__single">
+                            <div class="icon-box">
+                                <span class="icon-special-shipments"></span>
+                            </div>
+                            <div class="fact-counter-two__single-inner">
+                                <h2 class="count"><span class="plus">+</span><span class="odometer odometer-auto-theme" data-count="12000"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                                </h2>
+                                <div class="text">
+                                    <p>Parcels Shipped Safely</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Fact Counter Two Single-->
+
+                    <!--Start Fact Counter Two Single-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                        <div class="fact-counter-two__single">
+                            <div class="icon-box">
+                                <span class="icon-global-network"></span>
+                            </div>
+                            <div class="fact-counter-two__single-inner">
+                                <h2 class="count"><span class="plus">+</span><span class="odometer odometer-auto-theme" data-count="8667"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span></div></span>
+                                </h2>
+                                <div class="text">
+                                    <p>Cities Served Worldwide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Fact Counter Two Single-->
+
+                    <!--Start Fact Counter Two Single-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="fact-counter-two__single">
+                            <div class="icon-box">
+                                <span class="icon-satisfied3"></span>
+                            </div>
+                            <div class="fact-counter-two__single-inner">
+                                <h2 class="count"><span class="plus">+</span><span class="odometer odometer-auto-theme" data-count="6780"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                                </h2>
+                                <div class="text">
+                                    <p>Satisfied Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Fact Counter Two Single-->
+
+                    <!--Start Fact Counter Two Single-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInDown" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                        <div class="fact-counter-two__single">
+                            <div class="icon-box">
+                                <span class="icon-support"></span>
+                            </div>
+                            <div class="fact-counter-two__single-inner">
+                                <h2 class="count"><span class="plus">+</span><span class="odometer odometer-auto-theme" data-count="300"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                                </h2>
+                                <div class="text">
+                                    <p>Company We Help</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Fact Counter Two Single-->
+                </div>
+            </div>
+        </section>
+        <!--End Fact Counter Two-->
+
+       <!--Start Services Two-->
+        <section class="services-two">
+            <div class="services-two__bg" style="background-image: url(assets//img/background/services-v2-bg.jpg);">
+            </div>
+            <div class="shape1"><img src="./banner-one-img-1_files/services-v2-shape1.png" alt=""></div>
+            <div class="container">
+                <div class="sec-title-two">
+                    <div class="sub-title">
+                        <h5>Our Services</h5>
+                    </div>
+                    <h2>We Provide all Kinds of <br> Logistics Service</h2>
+                </div>
+
+                <div class="swiper-container services-two__slider swiper-container-initialized swiper-container-horizontal" style="cursor: grab;">
+                    <div class="swiper-wrapper" style="transform: translate3d(-2310px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/air.png" alt="">
+                                    </div>
+                                    <div class="number-box">01</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/air-transport.html">Air Freight</a></h3>
+                                        <p>Reliable air cargo, delivered swiftly.</p>
+                                        <div class="count-box">
+                                            01
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/air-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/ocean.png" alt="">
+                                    </div>
+                                    <div class="number-box">02</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/ocean-freight.html">Ocean Freight</a></h3>
+                                        <p>Cost-effective, worldwide ocean delivery.</p>
+                                        <div class="count-box">
+                                            02
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/ocean-freight.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/train.png" alt="">
+                                    </div>
+                                    <div class="number-box">03</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/rail-transport.html">Rail Container</a></h3>
+                                        <p>Reliable containerized rail shipping.</p>
+                                        <div class="count-box">
+                                            03
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/rail-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/road.png" alt="">
+                                    </div>
+                                    <div class="number-box">04</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/road-transport.html">Road Transport</a></h3>
+                                        <p>Efficient, reliable road freight across regions.</p>
+                                        <div class="count-box">
+                                            04
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/road-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+
+                            <!--End Services Two Single-->
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/air.png" alt="">
+                                    </div>
+                                    <div class="number-box">01</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/air-transport.html">Air Freight</a></h3>
+                                        <p>Reliable air cargo, delivered swiftly.</p>
+                                        <div class="count-box">
+                                            01
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/air-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div>
+
+                        <div class="swiper-slide" data-swiper-slide-index="1" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/ocean.png" alt="">
+                                    </div>
+                                    <div class="number-box">02</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/ocean-freight.html">Ocean Freight</a></h3>
+                                        <p>Cost-effective, worldwide ocean delivery.</p>
+                                        <div class="count-box">
+                                            02
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/ocean-freight.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/train.png" alt="">
+                                    </div>
+                                    <div class="number-box">03</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/rail-transport.html">Rail Container</a></h3>
+                                        <p>Reliable containerized rail shipping.</p>
+                                        <div class="count-box">
+                                            03
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/rail-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/road.png" alt="">
+                                    </div>
+                                    <div class="number-box">04</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/road-transport.html">Road Transport</a></h3>
+                                        <p>Efficient, reliable road freight across regions.</p>
+                                        <div class="count-box">
+                                            04
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/road-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+
+                            <!--End Services Two Single-->
+                        </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/air.png" alt="">
+                                    </div>
+                                    <div class="number-box">01</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/air-transport.html">Air Freight</a></h3>
+                                        <p>Reliable air cargo, delivered swiftly.</p>
+                                        <div class="count-box">
+                                            01
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/air-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/ocean.png" alt="">
+                                    </div>
+                                    <div class="number-box">02</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/ocean-freight.html">Ocean Freight</a></h3>
+                                        <p>Cost-effective, worldwide ocean delivery.</p>
+                                        <div class="count-box">
+                                            02
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/ocean-freight.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/train.png" alt="">
+                                    </div>
+                                    <div class="number-box">03</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/rail-transport.html">Rail Container</a></h3>
+                                        <p>Reliable containerized rail shipping.</p>
+                                        <div class="count-box">
+                                            03
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/rail-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Services Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 306px; margin-right: 24px;">
+                            <!--Start Services Two Single-->
+                            <div class="services-two__single">
+                                <div class="services-two__single-img">
+                                    <div class="inner">
+                                        <img src="./banner-one-img-1_files/road.png" alt="">
+                                    </div>
+                                    <div class="number-box">04</div>
+                                </div>
+
+                                <div class="services-two__single-content">
+                                    <div class="services-two__single-content-inner">
+                                        <h3><a href="https://mepolisinc.com/road-transport.html">Road Transport</a></h3>
+                                        <p>Efficient, reliable road freight across regions.</p>
+                                        <div class="count-box">
+                                            04
+                                        </div>
+                                    </div>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="https://mepolisinc.com/road-transport.html">
+                                            <span class="txt">Read More</span> <i class="icon-right-arrow"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+
+                            <!--End Services Two Single-->
+                        </div></div>
+
+                    
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+           
+
+                <!-- If we need navigation buttons -->
+                <div class="services-two__wrap">
+                    <div class="swiper-counter">
+                        <div id="current2" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">1</div>
+                        <div id="total2">10</div>
+                    </div>
+                </div>
+
+                <div class="swiper-nav-style1">
+                    <div class="swiper-button-prev" id="services-two__swiper-button-next" tabindex="0" role="button" aria-label="Next slide" fdprocessedid="19fqvu">
+                        <i class="icon-left-arrow-5" aria-hidden="true"></i>
+                    </div>
+                    <div class="swiper-button-next" id="services-two__swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" fdprocessedid="xiilo">
+                        <i class="icon-right-arrow-5" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Services Two-->
+
+
+        <!--Start Company Benefit One-->
+        <section class="company-benefit-one">
+            <div class="company-benefit-one__img wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms" style="background-image: url(&quot;assets/img/service/service6.png&quot;); visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;"></div>
+            <div class="container">
+                <div class="row">
+                    <!--Start Company Benefit One Content-->
+                    <div class="col-xl-6">
+                        <div class="company-benefit-one__content">
+                            <div class="sec-title-two">
+                                <div class="sub-title">
+                                    <h5>Company Benefit</h5>
+                                </div>
+                                <h2>Why do You Like Mepolis Inc ?</h2>
+                            </div>
+
+                            <div class="company-benefit-one__content-text">
+                                <p>Beyond just a supplier, Mepolis Inc. is your dedicated partner, working closely with you to provide data-driven insights and recommendations that help streamline your logistics and minimize costs,</p>
+                            </div>
+
+                            <ul class="company-benefit-one__content-list">
+                                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                                    <div class="shape1"><img src="./banner-one-img-1_files/company-benefit-v1-shape1.png" alt=""></div>
+                                    <div class="icon-box">
+                                        <span class="icon-right-time-delivery-1"></span>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <h3>Right Time Delivery</h3>
+                                        <p>Our Right Time Delivery service ensures that your shipments arrive precisely when needed. With meticulous planning and real-time tracking, we reduce delays and enhance reliability. Mepolis Inc. is committed to timely, efficient logistics solutions, giving you peace of mind and supporting your business's success.</p>
+                                    </div>
+                                </li>
+
+                                <li class="wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms" style="visibility: hidden; animation-duration: 1500ms; animation-delay: 100ms; animation-name: none;">
+                                    <div class="shape1"><img src="./banner-one-img-1_files/company-benefit-v1-shape1.png" alt=""></div>
+                                    <div class="icon-box">
+                                        <span class="icon-online-support"></span>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <h3>24/7 Online Support</h3>
+                                        <p>Mepolis Inc. offers round-the-clock online support to keep your logistics running smoothly at all times. Our dedicated team is available 24/7 to address inquiries, resolve issues, and provide real-time assistance, ensuring seamless operations and quick responses to meet your business needs anytime, anywhere.</p>
+                                    </div>
+                                </li>
+
+                                <li class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: hidden; animation-duration: 1500ms; animation-delay: 200ms; animation-name: none;">
+                                    <div class="shape1"><img src="./banner-one-img-1_files/company-benefit-v1-shape1.png" alt=""></div>
+                                    <div class="icon-box">
+                                        <span class="icon-safe-package"></span>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <h3>Safe Package</h3>
+                                        <p>At Mepolis Inc., we prioritize the safety of every package. With secure handling, robust packaging solutions, and thorough quality checks, we ensure that your shipments reach their destination in perfect condition. Trust our commitment to delivering your goods safely, protecting your cargo from start to finish.</p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!--End Company Benefit One Content-->
+
+
+                    <!--Start Company Benefit One Form-->
+<div class="col-xl-6">
+    <div class="company-benefit-one__form">
+        <div class="title-box">
+            <h2>Request Quick Quote</h2>
+        </div>
+
+        <form method="post" action="https://mepolisinc.com/send_mail.php">
+            <div class="company-benefit-one__distance-box">
+                <div class="title">
+                    <h3></h3>
+                </div>
+                <div class="form-group">
+                    <div class="inner"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="form-group">
+                        <input type="text" name="username" placeholder="Full Name" required="" fdprocessedid="gvsetf">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required="" fdprocessedid="pv5xrn">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Phone" required="" fdprocessedid="ylpxm7">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <div class="select-box">
+                            <select class="selectmenu wide" name="freight_type" style="display: none;">
+                                <option selected="selected">Freight Type</option>
+                                <option>Road Transport</option>
+                                <option>Ocean Transport</option>
+                                <option>Train Transport</option>
+                                <option>Cargo Transport</option>
+                            </select><div class="nice-select selectmenu wide" tabindex="0"><span class="current">Freight Type</span><ul class="list"><li data-value="Freight Type" class="option selected">Freight Type</li><li data-value="Road Transport" class="option">Road Transport</li><li data-value="Ocean Transport" class="option">Ocean Transport</li><li data-value="Train Transport" class="option">Train Transport</li><li data-value="Cargo Transport" class="option">Cargo Transport</li></ul></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <div class="select-box">
+                            <select class="selectmenu wide" name="load" style="display: none;">
+                                <option selected="selected">Load</option>
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select><div class="nice-select selectmenu wide" tabindex="0"><span class="current">Load</span><ul class="list"><li data-value="Load" class="option selected">Load</li><li data-value="Small" class="option">Small</li><li data-value="Medium" class="option">Medium</li><li data-value="High" class="option">High</li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="weight" placeholder="Weight" required="" fdprocessedid="9zpxa4">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="length" placeholder="Length" required="" fdprocessedid="mjkxal">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="height" placeholder="Height" required="" fdprocessedid="fycgnj">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="width" placeholder="Width" required="" fdprocessedid="wodxm">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Write your message"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="button-box">
+                        <button class="thm-btn" type="submit" data-loading-text="Please wait..." fdprocessedid="rq452">
+                            <span class="txt">Send Request</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--End Company Benefit One Form-->
+
+        <!--Start Testimonials Two-->
+        <section class="testimonials-two">
+            <div class="testimonials-two__bg" style="background-image: url(assets/img/background/1.png);"></div>
+            <div class="container" style="padding-bottom: 20px;">
+                <div class="sec-title-two">
+                    <div class="sub-title">
+                        <h5>Testimonials</h5>
+                    </div>
+                    <h2>What Our Customer Say</h2>
+                </div>
+
+                <div class="swiper-container testimonials-two__slider swiper-container-initialized swiper-container-horizontal" style="cursor: grab;">
+                    <div class="swiper-wrapper" style="transform: translate3d(-1760px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/2.png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Helen Wilmore</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Cargo Transport”</h3>
+                                        <p>Excellent, timely service! Reliable cargo transport, exceeded our expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/1(1).png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Jhon Smith</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Air Freight Services”</h3>
+                                        <p>Efficient, fast delivery! Air freight services met all expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/2.png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Rebecca Tylor</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Road Transport”</h3>
+                                        <p>Reliable, on-time delivery! Road transport exceeded our expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/2.png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Helen Wilmore</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Cargo Transport”</h3>
+                                        <p>Excellent, timely service! Reliable cargo transport, exceeded our expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/1(1).png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Jhon Smith</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Air Freight Services”</h3>
+                                        <p>Efficient, fast delivery! Air freight services met all expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/2.png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Rebecca Tylor</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Road Transport”</h3>
+                                        <p>Reliable, on-time delivery! Road transport exceeded our expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/2.png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Helen Wilmore</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Cargo Transport”</h3>
+                                        <p>Excellent, timely service! Reliable cargo transport, exceeded our expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/1(1).png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Jhon Smith</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Air Freight Services”</h3>
+                                        <p>Efficient, fast delivery! Air freight services met all expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 416px; margin-right: 24px;">
+                            <!--Start Testimonials Two Single-->
+                            <div class="testimonials-two__single">
+                                <div class="quote-icon"><span class="icon-quote11"></span></div>
+                                <div class="testimonials-two__single-top">
+                                    <div class="img-box">
+                                        <img src="./banner-one-img-1_files/2.png" alt="">
+                                    </div>
+                                    <div class="text-box">
+                                        <p>Satisfied Customer</p>
+                                        <h3>Rebecca Tylor</h3>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-two__single-bottom">
+                                    <div class="rating-box">
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                        <a href="https://mepolisinc.com/#"><i class="icon-star"></i></a>
+                                    </div>
+                                    <div class="content-box">
+                                        <h3>“Road Transport”</h3>
+                                        <p>Reliable, on-time delivery! Road transport exceeded our expectations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Testimonials Two Single-->
+                        </div></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="testimonials-two__wrap">
+                    <div class="swiper-counter">
+                        <div id="current3" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">2</div>
+                        <div id="total3">7</div>
+                    </div>
+                </div>
+
+                <div class="swiper-nav-style1">
+                    <div class="swiper-button-prev" id="testimonials-two__swiper-button-next" tabindex="0" role="button" aria-label="Next slide" fdprocessedid="ca8h68">
+                        <i class="icon-left-arrow-5" aria-hidden="true"></i>
+                    </div>
+                    <div class="swiper-button-next" id="testimonials-two__swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" fdprocessedid="g6jytl">
+                        <i class="icon-right-arrow-5" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--Start Brand One-->
+            
+            <!--End Brand One -->
+        </section>
+        <!--End Testimonials Two-->
+
+        
+
+        <!--Start Pricing One -->
+      <!--  <section class="pricing-one" id="price-div">
+            <div class="pricing-one__bg" style="background-image: url(assets/img/background/pricing-v1-bg.png);"></div>
+            <div class="container">
+                <div class="sec-title-two text-center">
+                    <div class="sub-title">
+                        <h5>Pricing</h5>
+                    </div>
+                    <h2>Our Best Pricing Plan</h2>
+                </div>
+
+                <!-- 
+                <div class="pricing-section text-center"> -->
+                    <!--Start Pricing One Single-->
+                    <!--  <div class="pricing-card-container">
+                       <!--  <div class="pricing-card"> -->
+                            <!-- <div class="pricing-card-bg"
+                                style="background-image: url(assets/img/resource/pricing-v1-single-bg.jpg);"></div> -->
+                          <!--   <div class="pricing-header">
+                              <!--   <div class="pricing-image">
+                                    <img src="assets/img/resource/pricing-v1-img1.png" alt="">
+                                </div>
+                            </div> -->
+                
+                           <!--  <div class="pricing-content">
+                             <!-- <!-- <!--    <div class="pricing-title">
+                               <!-- <!--      <h2 id="price-roade">$39</h2>
+                               <!--      <select id="weight-roade" class="weight-dropdown" onchange="updatePrice('roade')">
+                                        <option value="39">256kg</option>
+                                        <option value="59">500kg</option>
+                                        <option value="79">750kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                
+                            <div class="pricing-footer">
+                                <div class="quote-button">
+                                    <a class="quote-link" href="#">
+                                        <span>Choose</span> <i class="icon-right-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!--End Pricing One Single-->
+                
+                </div>
+                
+                <script>
+                    function updatePrice(type) {
+                        const weightElement = document.getElementById(`weight-${type}`);
+                        const priceElement = document.getElementById(`price-${type}`);
+                        const selectedPrice = weightElement.value;
+                        priceElement.innerHTML = `$${selectedPrice}`;
+                    }
+                </script>
+
+                <!--  -->
+            </div>
+        </section>
+        <!--End Pricing One -->
+
+        <!-- Start Faq One-->
+        <section class="faq-one faq-one--two">
+            <div class="big-title">
+                <h2>faq</h2>
+            </div>
+            <div class="faq-one__bg" style="background-image: url(assets/img/resource/faq-v2-bg.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <!-- Start Faq One Faq-->
+                    <div class="col-xl-6">
+                        <div class="faq-one__faq">
+
+                            <div class="sec-title-two">
+                                <div class="sub-title">
+                                    <h5>FAQ?</h5>
+                                </div>
+                                <h2>Frequently Asked Questions</h2>
+                            </div>
+
+                            <ul class="accrodion-grp faq-one__accrodion faq-one-accrodion" data-grp-name="faq-one-accrodion">
+                                <!-- Start Faq One Single-->
+                                <li class="accrodion active">
+                                    <div class="accrodion-title">
+                                        <h2><span>01.</span> How can I pay for your logistics services?</h2>
+    </div>
+    <div class="accrodion-content" style="">
+        <div class="inner">
+            <span>Answer:</span>
+            <p>Mepolis Inc. offers flexible payment options, including credit card, bank transfer, and online payment methods for your convenience.</p>
+        </div>
+    </div>
+</li>
+<!-- End Faq One Single-->
+
+<!-- Start Faq One Single-->
+<li class="accrodion">
+    <div class="accrodion-title">
+        <h2><span>02.</span> How can I track my shipments?</h2>
+    </div>
+    <div class="accrodion-content" style="display: none;">
+        <div class="inner">
+            <span>Answer:</span>
+            <p>Track your shipments in real-time using our online tracking system on the Mepolis Inc. website, or contact our support for assistance.</p>
+        </div>
+    </div>
+</li>
+<!-- End Faq One Single-->
+
+<!-- Start Faq One Single-->
+<li class="accrodion">
+    <div class="accrodion-title">
+        <h2><span>03.</span> Can I specify a delivery date when ordering?</h2>
+    </div>
+    <div class="accrodion-content" style="display: none;">
+        <div class="inner">
+            <span>Answer:</span>
+            <p>Yes, Mepolis Inc. allows customers to specify preferred delivery dates. Our team will work to meet your scheduling needs.</p>
+        </div>
+    </div>
+</li>
+<!-- End Faq One Single-->
+
+<!-- Start Faq One Single-->
+<li class="accrodion">
+    <div class="accrodion-title">
+        <h2><span>04.</span> Any advice for a first-time shipper?</h2>
+    </div>
+    <div class="accrodion-content" style="display: none;">
+        <div class="inner">
+            <span>Answer:</span>
+            <p>For first-time shippers, Mepolis Inc. recommends clear labeling, accurate documentation, and tracking usage to ensure smooth logistics.</p>
+        </div>
+    </div>
+</li>
+<!-- End Faq One Single-->
+                                  
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Faq One Faq-->
+
+                    <!-- Start Faq One Contact Info-->
+                    <div class="col-xl-6">
+                        <div class="faq-one__contact-info wow fadeInRight" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                            <div class="title-box">
+                                <p>Let’s Talk</p>
+                                <h3>You need any help? get free consultation</h3>
+                            </div>
+
+                            <div class="faq-one__contact-info-number">
+                                <div class="icon">
+                                    <img src="./banner-one-img-1_files/whatsapp.svg" height="100%">
+                                </div>
+
+                                <div class="text">
+                                    <p>Have Any Questions</p>
+                                    <h3><a href="tel:+647-549-5656">647-549-5656 </a></h3>
+                                </div>
+                            </div>
+
+                            <div class="btn-box">
+                                <a class="thm-btn" href="https://api.whatsapp.com/send?phone=+4165225656&amp;text=Hello%20there!" target="_blank">
+                                    <span class="txt">Contact Us</span> <i class="icon-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Faq One Contact Info-->
+                </div>
+            </div>
+        </section>
+        <!-- End Faq One-->
+
+        <!--Start Project Two-->
+        
+        <!--End Project Two-->
+
+     <!--   <section class="pricing-one">
+            <div class="pricing-one__bg" style="background-image: url(assets/img/background/pricing-v1-bg.png);"></div>
+            <div class="container">-->
+             <!--   <div class="sec-title-two text-center">
+                <!--    <div class="sub-title">
+                        <h5>Pricing</h5>
+                    </div>
+                    <h2>Our Best Pricing Plan</h2>
+                </div>
+
+                <!--  -->
+              <!--  <div class="pricing-section text-center" id="pricing1"> 
+                    <!--Start Pricing One Single-->
+               <!--     <div class="pricing-card-container">
+                        <div class="pricing-card">
+                            <!-- <div class="pricing-card-bg"
+                                style="background-image: url(assets/img/resource/pricing-v1-single-bg.jpg);"></div> -->
+               <!--<!--             <div class="pricing-header">
+               <!--                 <div class="pricing-image">
+                                    <img src="assets/img/resource/pricing-v1-img1.png" alt="">
+                                </div>
+                            </div>
+                
+                            <div class="pricing-content">
+                                <div class="pricing-title">
+                                    <h2 id="price-roade">$39</h2>
+                                    <select id="weight-roade" class="weight-dropdown" onchange="updatePrice('roade')">
+                                        <option value="39">256kg</option>
+                                        <option value="59">500kg</option>
+                                        <option value="79">750kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                
+                            <div class="pricing-footer">
+                                <div class="quote-button">
+                                    <a class="quote-link" href="#">
+                                        <span>Get a Quote</span> <i class="icon-right-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Pricing One Single-->
+                
+          <!--      </div>
+                
+          <!--      <script>
+          <!--          function updatePrice(type) {
+                        const weightElement = document.getElementById(`weight-${type}`);
+                        const priceElement = document.getElementById(`price-${type}`);
+                        const selectedPrice = weightElement.value;
+                        priceElement.innerHTML = `$${selectedPrice}`;
+                    }
+                </script>
+
+      <!--          <!--  -->
+     <!--       </div>
+        </section>
+
+        
+
+        <!--Start Google Map One-->
+        <section class="google-map-one">
+            <div class="container clearfix">
+                <div class="google-map-one__content clearfix">
+                    <div class="inner-box">
+                        <div class="title-box text-center">
+                            <h2>Contact With Us</h2>
+                        </div>
+                        <ul class="accrodion-grp2 google-map__accrodion faq-one-accrodion" data-grp-name="faq-one-accrodion">
+                            <!-- Start Google Map Faq Single-->
+                            <!-- <li class="accrodion active">
+                                <div class="accrodion-title">
+                                    <h2>New York Office</h2>
+                                </div>
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <ul class="accrodion-content-list">
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-pin"></span>
+                                                </div>
+                                                <p>Jones Street, New York, USA</p>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-paper-plane"></span>
+                                                </div>
+                                                <p><a href="mailto:yourmail@email.com">Info@example.com</a></p>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-out-call"></span>
+                                                </div>
+                                                <p><a href="tel:123456789">+70 264 566 579</a></p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- End Google Map Faq Single-->
+
+                            <!-- Start Google Map Faq Single-->
+                            <li class="accrodion active">
+                                <div class="accrodion-title">
+                                    <h2>Canada Office</h2>
+                                </div>
+                                <div class="accrodion-content" style="">
+                                    <div class="inner">
+                                        <ul class="accrodion-content-list">
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-pin"></span>
+                                                </div>
+                                                <p>
+                                                    394 Orenda Rd, Brampton, ON L6T 1G9</p>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-paper-plane"></span>
+                                                </div>
+                                                <p><a href="mailto:info@mepolisinc.com">info@mepolisinc.com</a></p>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-out-call"></span>
+                                                </div>
+                                                <p><a href="tel:+47-549-5656">647-549-5656 </a></p>
+                                                    <p><a href="tel:+647-241-2255">647-241-2255 </a></p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Google Map Faq Single-->
+
+                            <!-- Start Google Map Faq Single-->
+                            <!-- <li class="accrodion">
+                                <div class="accrodion-title">
+                                    <h2>London Office</h2>
+                                </div>
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <ul class="accrodion-content-list">
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-pin"></span>
+                                                </div>
+                                                <p>Jones Street, New York, USA</p>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-paper-plane"></span>
+                                                </div>
+                                                <p><a href="mailto:yourmail@email.com">Info@example.com</a></p>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon-box">
+                                                    <span class="icon-out-call"></span>
+                                                </div>
+                                                <p><a href="tel:123456789">+70 264 566 579</a></p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- End Google Map Faq Single-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <iframe src="./banner-one-img-1_files/embed.html" class="google-map-one__map" allowfullscreen="">
+            </iframe>
+        </section>
+        <!--End Google Map One-->
+
+        <!--Start Blog Two-->
+    
+        <!--End Blog Two-->
+
+        <!--Start Cta Two-->
+<!--Start Cta Two-->
+        <section class="cta-two">
+            <div class="container">
+                <div class="cta-two__inner">
+                    <div class="shape1"><img src="./banner-one-img-1_files/cta-v2-shape1.png" alt=""></div>
+                    <div class="shape2"><img src="./banner-one-img-1_files/cta-v2-shape2.png" alt=""></div>
+                    <div class="shape3 float-bob-x"><img src="./banner-one-img-1_files/cta-v2-shape3.png" alt=""></div>
+                    <div class="cta-two__inner-box">
+                        <div class="title-box">
+                            <p>Get in touch</p>
+                            <h2>Looking for the best logistics <br> transport services</h2>
+                        </div>
+
+                        <div class="btn-box">
+                            <a class="thm-btn" href="https://mepolisinc.com/#">
+                                <span class="txt">Request a Quote</span> <i class="icon-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Cta Two-->
+        <!--End Cta Two-->
+
+        <footer class="footer-one footer-one--two">
+            <div class="footer-one__bg" style="background-image: url(assets/img/footer/footer-v2-bg.png);"></div>
+            <div class="shape1 float-bob-y"><img src="./banner-one-img-1_files/footer-v2-shape1.png" alt=""></div>
+            <div class="shape2 float-bob-y"><img src="./banner-one-img-1_files/footer-v2-shape2.png" alt=""></div>
+            <!-- Start Footer Main -->
+            <div class="footer-main">
+                <div class="container">
+                    <div class="footer-main__bottom">
+                        <div class="row">
+                            <!--Start Single Footer Widget-->
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
+                                <div class="single-footer-widget footer-widget__about">
+                                    <div class="logo-box">
+                                        <a href="https://mepolisinc.com/index.html"><img src="./banner-one-img-1_files/empty.png" alt=""></a>
+                                    </div>
+                                    <div class="footer-widget__about-inner">
+                                        <p class="text1">Mepolis Inc. provides reliable, efficient logistics for timely, safe deliveries.</p>
+
+
+
+
+
+
+
+                                        <p class="text2">We are available</p>
+                                        <p class="text3">Mon-Sat: 07:00am to 07:00pm</p>
+
+                                        <div class="footer-social-link">
+                                            <a href="https://mepolisinc.com/#"><span class="icon-facebook"></span></a>
+                                            <a href="https://mepolisinc.com/#"><span class="icon-instagram"></span></a>
+                                            <a href="https://mepolisinc.com/#"><span class="icon-linkedin"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Footer Widget-->
+
+                            <!--Start Single Footer Widget-->
+                            <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                                <div class="single-footer-widget footer-widget__links">
+                                    <div class="title">
+                                        <h2>Quick Links</h2>
+                                    </div>
+
+                                    <div class="footer-widget__links-box">
+                                        <ul>
+                                            <li><a href="https://mepolisinc.com/about.html">About</a></li>
+                                            <li><a href="https://mepolisinc.com/terms-and-condition.html">Trams &amp; Condition</a></li>
+                                <li><a href="https://mepolisinc.com/privacy-policy.html">Privacy Policy</a></li>
+             
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Footer Widget-->
+
+                            <!--Start Single Footer Widget-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                                <div class="single-footer-widget footer-widget__links services">
+                                    <div class="title">
+                                        <h2>Our Services</h2>
+                                    </div>
+
+                                    <div class="footer-widget__links-box">
+                                        <ul>
+                                            <li><a href="https://mepolisinc.com/road-transport.html">Road Transport</a></li>
+                                            <li><a href="https://mepolisinc.com/air-transport.html">Air Freight</a></li>
+                                            
+                                            <li><a href="https://mepolisinc.com/rail-transport.html">Railway Freight</a></li>
+                                           
+                                            
+                                            <li><a href="https://mepolisinc.com/rocean-freight.html">Ocean Freight</a></li> 
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Footer Widget-->
+
+                            <!--Start Single Footer Widget-->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                                <div class="single-footer-widget single-footer__newsletter">
+                                    <div class="title">
+                                        <h2>Newsletter</h2>
+                                    </div>
+                                    <div class="single-footer__newsletter-box">
+                                        <div class="single-footer__newsletter-text1">
+                                            <p>Subscribe to our weekly newsletter to <br> get information.</p>
+                                        </div>
+                                        <form class="single-footer__newsletter-form" id="newsletter-form" action="https://mepolisinc.com/send_mail3.php" method="POST">
+    <div class="single-footer__newsletter-form-input">
+        <input type="email" placeholder="Enter Your Email" name="email" required="" fdprocessedid="eaqcl8">
+    </div>
+
+    <div class="single-footer__newsletter-btn">
+        <button class="thm-btn" type="submit" fdprocessedid="ycrz0y">
+            <span class="txt">Subscribe Now</span>
+            <i class="icon-right-arrow"></i>
+        </button>
+    </div>
+</form>
+<p class="ajax-response mb-0" id="newsletter-response"></p>
+
+<script>
+document.getElementById('newsletter-form').addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+    });
+
+    const result = await response.json();
+    const responseElement = document.getElementById('newsletter-response');
+    responseElement.textContent = result.message;
+    responseElement.style.color = result.status === "success" ? "green" : "red";
+});
+</script>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Footer Widget-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer Main -->
+
+            <!--Start Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom__inner">
+                        <div class="copyright-text">
+                            <p>© <span id="year">2024</span><a href="https://mepolisinc.com/index.html"> Translo,</a> All Rights Reserved.</p>
+                        </div>
+                        <script>
+                            const yearElement = document.getElementById("year");
+                            yearElement.textContent = new Date().getFullYear();
+                          </script>
+                        <div class="copyright-menu">
+                            <p>Web Developed by <a href="https://mepolisinc.com/index.html">Apexx private limited </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Footer Bottom -->
+        </footer>
+    </div>
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler">
+            <div class="search-popup__close-icon">
+                <span class="icon-plus"></span>
+            </div>
+        </div>
+        <div class="search-popup__content">
+            <form action="https://mepolisinc.com/#">
+                <label for="search" class="sr-only">search here</label>
+                <input type="text" id="search" placeholder="Search Here..." fdprocessedid="rlescr">
+                <button type="submit" aria-label="search submit" class="btn-box" fdprocessedid="l7fl8a">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JS here -->
+    <script src="./banner-one-img-1_files/jquery-3.6.0.min.js.download"></script>
+    <script src="./banner-one-img-1_files/ajax-form.js.download"></script>
+    <script src="./banner-one-img-1_files/bootstrap.min.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery.appear.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery.circleType.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery.lettering.min.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery.magnific-popup.min.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery.nice-select.min.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery.odometer.min.js.download"></script>
+    <script src="./banner-one-img-1_files/jquery-sidebar-content.js.download"></script>
+    <script src="./banner-one-img-1_files/nouislider.min.js.download"></script>
+    <script src="./banner-one-img-1_files/slick.min.js.download"></script>
+    <script src="./banner-one-img-1_files/swiper.min.js.download"></script>
+    <script src="./banner-one-img-1_files/wow.min.js.download"></script>
+    <script src="./banner-one-img-1_files/TweenMax.min.js.download"></script>
+
+    <script src="./banner-one-img-1_files/main(1).js.download"></script>
+
+    <style>
+        .pricing-section {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+    
+        .pricing-card-container {
+            width: 300px;
+            margin: 10px;
+        }
+    
+        .pricing-card {
+            position: relative;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+    
+        .pricing-card:hover {
+            transform: translateY(-5px);
+        }
+    
+        .pricing-card-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.2;
+            z-index: -1;
+            border-radius: 8px;
+        }
+    
+        .pricing-header {
+            margin-bottom: 15px;
+        }
+    
+        .pricing-image img {
+            width: 100%;
+            border-radius: 0;
+            margin-bottom: 10px;
+        }
+    
+        .pricing-title h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+    
+        .pricing-title h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+    
+        .weight-dropdown {
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+    
+        .pricing-footer .quote-button {
+            margin-top: 20px;
+        }
+    
+        .quote-link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #ff7a59;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+    
+        .quote-link:hover {
+            background-color: #ff5733;
+        }
+    
+        .icon-right-arrow {
+            margin-left: 5px;
+        }
+    </style>
+
+
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
