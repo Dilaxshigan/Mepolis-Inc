@@ -183,43 +183,70 @@
                         <div class="quote-form-container">
                             <h2 class="section-title">Request Quick Quote</h2>
                             <p>Fill out the form below, and we’ll get back to you with a customized logistics quote.</p>
-                            <form class="quote-form" action="process-quote.php" method="post">
+                            <form class="quote-form" action="{{ route('store_request') }}" method="post">
+                                @csrf
                                 <div class="form-group">
                                     <label for="full-name">Full Name</label>
-                                    <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Your Full Name" required>
+                                    <input type="text" id="full-name" name="name" class="form-control" placeholder="Your Full Name">
+                                    @error('name')
+                                       <span class="text-danger fw-semibold">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" class="form-control" placeholder="Your Email Address" required>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Your Email Address">
+                                    @error('email')
+                                        <span class="text-danger fw-semibold">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Phone</label>
-                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Your Phone Number" required>
+                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Your Phone Number">
+                                    @error('phone')
+                                         <span class="text-danger fw-semibold">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-4">
                                         <label for="weight">Weight (kg)</label>
-                                        <input type="number" id="weight" name="weight" class="form-control" placeholder="Weight" required>
+                                        <input type="number" id="weight" name="weight" class="form-control" placeholder="Weight">
+                                        @error('weight')
+                                           <span class="text-danger fw-semibold">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="length">Length (cm)</label>
-                                        <input type="number" id="length" name="length" class="form-control" placeholder="Length" required>
+                                        <input type="number" id="length" name="length" class="form-control" placeholder="Length">
+                                        @error('length')
+                                             <span class="text-danger fw-semibold">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="height">Height (cm)</label>
-                                        <input type="number" id="height" name="height" class="form-control" placeholder="Height" required>
+                                        <input type="number" id="height" name="height" class="form-control" placeholder="Height">
+                                        @error('height')
+                                             <span class="text-danger fw-semibold">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="width">Width (cm)</label>
-                                    <input type="number" id="width" name="width" class="form-control" placeholder="Width" required>
+                                    <input type="number" id="width" name="width" class="form-control" placeholder="Width">
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Write Your Message</label>
                                     <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write Your Message"></textarea>
+                                    @error('message')
+                                        <span class="text-danger fw-semibold">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <button type="submit" class="btn btn-orange">Send Request</button>
                             </form>
+                            @if (session('message'))
+                                   <div class="alert alert-success mt-3 fs-5">
+                                        {{ session('message') }}
+                                   </div>
+                           @endif
                         </div>
                     </div>
                     <!-- Image Section -->

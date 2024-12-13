@@ -92,28 +92,40 @@
                             </div>
                             <h2 class="section-title__title">Feel Free To Write Us</h2>
                         </div>
-                        <form class="contact-form-validated contact-two__form" action="assets/inc/sendemail.php"
-                            method="post" novalidate="novalidate">
+                        <form class="contact-form-validated contact-two__form" action="{{ route('store_info') }}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-two__input-box">
-                                        <input type="text" name="name" placeholder="Name" required="">
+                                        <input type="text" name="name" placeholder="Name">
                                     </div>
+                                    @error('name')
+                                             <span class="text-danger fw-semibold">{{ $message }}</span>
+                                        @enderror
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-two__input-box">
-                                        <input type="email" name="email" placeholder="E-mail" required="">
+                                        <input type="email" name="email" placeholder="E-mail">
                                     </div>
+                                    @error('email')
+                                              <span class="text-danger fw-semibold">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="col-xl-12 col-lg-12">
                                     <div class="contact-two__input-box">
-                                        <input type="text" name="text" placeholder="Subject" required="">
+                                        <input type="text" name="text" placeholder="Subject">
                                     </div>
+                                    @error('text')
+                                            <span class="text-danger fw-semibold">{{ $message }}</span>
+                                     @enderror
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="contact-two__input-box text-message-box">
                                         <textarea name="message" placeholder="Message"></textarea>
                                     </div>
+                                    @error('message')
+                                           <span class="text-danger fw-semibold">{{ $message }}</span>
+                                     @enderror
                                 </div>
                                 <div class=" col-xl-12">
                                     <div class="contact-two__btn-box">
@@ -123,7 +135,13 @@
                                 </div>
                             </div>
                         </form>
-                        <div class="result"></div>
+                        <div class="result">
+                        @if (session('message'))
+                           <div class="alert alert-success mt-3 fs-5">
+                               {{ session('message') }}
+                           </div>
+                      @endif
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-5">
